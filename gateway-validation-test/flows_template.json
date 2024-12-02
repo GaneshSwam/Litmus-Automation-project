@@ -1,0 +1,2958 @@
+{
+  "flows": [
+    {
+      "id": "725fb16bf7cb047e",
+      "type": "tab",
+      "label": "Flow 1",
+      "disabled": false,
+      "info": "",
+      "env": []
+    },
+    {
+      "id": "c9b9d7b9e12ce3f4",
+      "type": "tab",
+      "label": "Flow 1",
+      "disabled": false,
+      "info": "",
+      "env": []
+    },
+    {
+      "id": "85928bb7bc71d150",
+      "type": "tab",
+      "label": "Accumulate and Simple Statistics",
+      "disabled": false,
+      "info": ""
+    },
+    {
+      "id": "720a6d3d9b63b431",
+      "type": "tab",
+      "label": "Multiple Process Parameters",
+      "disabled": false,
+      "info": ""
+    },
+    {
+      "id": "8ab4328a27a5513f",
+      "type": "tab",
+      "label": "Perform SPC  at Edge",
+      "disabled": false,
+      "info": ""
+    },
+    {
+      "id": "70786ccdd76fdc13",
+      "type": "tab",
+      "label": "Batch Node with Overlap",
+      "disabled": false,
+      "info": ""
+    },
+    {
+      "id": "308f8dfaa8d33b2d",
+      "type": "tab",
+      "label": "Regression",
+      "disabled": false,
+      "info": ""
+    },
+    {
+      "id": "0abc0aa82a012684",
+      "type": "tab",
+      "label": "Declare Prod Shift and Date",
+      "disabled": false,
+      "info": ""
+    },
+    {
+      "id": "4faf9987f34d100a",
+      "type": "tab",
+      "label": "MySQL Data on Dashboard",
+      "disabled": false,
+      "info": ""
+    },
+    {
+      "id": "7a902ac2dce2e049",
+      "type": "tab",
+      "label": "Sample Dashboards",
+      "disabled": false,
+      "info": ""
+    },
+    {
+      "id": "b9aea982.3a068",
+      "type": "Datahub Connect",
+      "ipadd": "127.0.0.1",
+      "port": "4222"
+    },
+    {
+      "id": "2673bd21.79d142",
+      "type": "influxdb",
+      "hostname": "127.0.0.1",
+      "port": "8086",
+      "protocol": "http",
+      "database": "tsdata",
+      "name": "InfluxDB TSDATA",
+      "usetls": false,
+      "tls": "",
+      "influxdbVersion": "1.x",
+      "url": "",
+      "rejectUnauthorized": false
+    },
+    {
+      "id": "5bf501c879df0548",
+      "type": "ui_tab",
+      "name": "Home",
+      "icon": "dashboard",
+      "disabled": false,
+      "hidden": false
+    },
+    {
+      "id": "fe8c2fbe88bb03ca",
+      "type": "MySQLdatabase",
+      "name": "",
+      "host": "127.0.0.1",
+      "port": "3306",
+      "db": "sample",
+      "tz": "",
+      "charset": "UTF8"
+    },
+    {
+      "id": "81b7c7ab0a0f3f36",
+      "type": "ui_base",
+      "theme": {
+        "name": "theme-custom",
+        "lightTheme": {
+          "default": "#0094CE",
+          "baseColor": "#0094CE",
+          "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+          "edited": true,
+          "reset": false
+        },
+        "darkTheme": {
+          "default": "#097479",
+          "baseColor": "#097479",
+          "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+          "edited": true,
+          "reset": false
+        },
+        "customTheme": {
+          "name": "Sid - Default Theme1",
+          "default": "#4B7930",
+          "baseColor": "#1e7adc",
+          "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+          "reset": false
+        },
+        "themeState": {
+          "base-color": {
+            "default": "#1e7adc",
+            "value": "#1e7adc",
+            "edited": true
+          },
+          "page-titlebar-backgroundColor": {
+            "value": "#1e7adc",
+            "edited": false
+          },
+          "page-backgroundColor": {
+            "value": "#fafafa",
+            "edited": true
+          },
+          "page-sidebar-backgroundColor": {
+            "value": "#ffffff",
+            "edited": false
+          },
+          "group-textColor": {
+            "value": "#5da1e9",
+            "edited": false
+          },
+          "group-borderColor": {
+            "value": "#ffffff",
+            "edited": true
+          },
+          "group-backgroundColor": {
+            "value": "#ffffff",
+            "edited": true
+          },
+          "widget-textColor": {
+            "value": "#111111",
+            "edited": false
+          },
+          "widget-backgroundColor": {
+            "value": "#1e7adc",
+            "edited": false
+          },
+          "widget-borderColor": {
+            "value": "#ffffff",
+            "edited": false
+          },
+          "base-font": {
+            "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+          }
+        },
+        "angularTheme": {
+          "primary": "indigo",
+          "accents": "blue",
+          "warn": "red",
+          "background": "grey"
+        }
+      },
+      "site": {
+        "name": "Node-RED Dashboard",
+        "hideToolbar": "false",
+        "allowSwipe": "false",
+        "lockMenu": "false",
+        "allowTempTheme": "true",
+        "dateFormat": "DD/MM/YYYY",
+        "sizes": {
+          "sx": 48,
+          "sy": 48,
+          "gx": 6,
+          "gy": 6,
+          "cx": 6,
+          "cy": 6,
+          "px": 0,
+          "py": 0
+        }
+      }
+    },
+    {
+      "id": "d06c6b6bf582009a",
+      "type": "ui_group",
+      "name": "Input",
+      "tab": "5bf501c879df0548",
+      "order": 2,
+      "disp": false,
+      "width": "6",
+      "collapse": false
+    },
+    {
+      "id": "cc76cdb9ad01bf36",
+      "type": "ui_group",
+      "name": "Charts",
+      "tab": "3e256ac30f1ccd2b",
+      "order": 2,
+      "disp": false,
+      "width": "6"
+    },
+    {
+      "id": "9f42dde2236b0964",
+      "type": "ui_group",
+      "name": "Inputs",
+      "tab": "3e256ac30f1ccd2b",
+      "order": 1,
+      "disp": false,
+      "width": "6"
+    },
+    {
+      "id": "81ef70312b32611e",
+      "type": "ui_group",
+      "name": "Group 3",
+      "tab": "3e256ac30f1ccd2b",
+      "order": 3,
+      "disp": false,
+      "width": "6"
+    },
+    {
+      "id": "3e256ac30f1ccd2b",
+      "type": "ui_tab",
+      "name": "Charts",
+      "icon": "dashboard",
+      "order": 2
+    },
+    {
+      "id": "0b74ea4cbc6f9307",
+      "type": "ui_group",
+      "name": "Graphs",
+      "tab": "5bf501c879df0548",
+      "order": 3,
+      "disp": true,
+      "width": "6",
+      "collapse": false
+    },
+    {
+      "id": "b0cd44d0bdf6acc8",
+      "type": "Datahub Subscribe",
+      "z": "85928bb7bc71d150",
+      "name": "Act Temp",
+      "natc": "b9aea982.3a068",
+      "topicname": "devicehub.alias.test6.tag1",
+      "x": 60,
+      "y": 60,
+      "wires": [
+        [
+          "c307d262b5c67250"
+        ]
+      ]
+    },
+    {
+      "id": "c307d262b5c67250",
+      "type": "json",
+      "z": "85928bb7bc71d150",
+      "name": "",
+      "property": "payload",
+      "action": "",
+      "pretty": false,
+      "x": 190,
+      "y": 60,
+      "wires": [
+        [
+          "281da47ee524857e",
+          "5d2abcf3e1b06f18"
+        ]
+      ]
+    },
+    {
+      "id": "6676651ce392ea17",
+      "type": "batch",
+      "z": "85928bb7bc71d150",
+      "name": "Collect in Arrays",
+      "mode": "count",
+      "count": 10,
+      "overlap": 0,
+      "interval": 10,
+      "allowEmptySequence": false,
+      "topics": [],
+      "x": 580,
+      "y": 60,
+      "wires": [
+        [
+          "d74dbf160865df52"
+        ]
+      ]
+    },
+    {
+      "id": "d74dbf160865df52",
+      "type": "join",
+      "z": "85928bb7bc71d150",
+      "name": "",
+      "mode": "auto",
+      "build": "string",
+      "property": "payload",
+      "propertyType": "msg",
+      "key": "topic",
+      "joiner": "\\n",
+      "joinerType": "str",
+      "accumulate": false,
+      "timeout": "",
+      "count": "",
+      "reduceRight": false,
+      "reduceExp": "",
+      "reduceInit": "",
+      "reduceInitType": "",
+      "reduceFixup": "",
+      "x": 460,
+      "y": 200,
+      "wires": [
+        [
+          "4b289b7be7f31154",
+          "900867a7bee4e91b",
+          "fc20d332fe230f83",
+          "2216c3470f33b407"
+        ]
+      ]
+    },
+    {
+      "id": "3cc5c13b88158eb2",
+      "type": "debug",
+      "z": "85928bb7bc71d150",
+      "name": "",
+      "active": false,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "false",
+      "x": 1450,
+      "y": 200,
+      "wires": []
+    },
+    {
+      "id": "25d46b7bb16af524",
+      "type": "function",
+      "z": "85928bb7bc71d150",
+      "name": "",
+      "func": "var obj = {};\nvar par = \"Min\";\nvalue = (msg.payload);\nobj[par] = value/1.0; \n//obj[par] = msg.payload;\nmsg.payload = obj;\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 760,
+      "y": 260,
+      "wires": [
+        [
+          "90022d64eb723518"
+        ]
+      ]
+    },
+    {
+      "id": "921961d607058721",
+      "type": "function",
+      "z": "85928bb7bc71d150",
+      "name": "",
+      "func": "var obj = {};\nvar par = \"Max\";\nvalue = (msg.payload);\nobj[par] = value/1.0; \n//obj[par] = msg.payload;\nmsg.payload = obj;\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 760,
+      "y": 220,
+      "wires": [
+        [
+          "90022d64eb723518"
+        ]
+      ]
+    },
+    {
+      "id": "38598fea39fb7b18",
+      "type": "function",
+      "z": "85928bb7bc71d150",
+      "name": "",
+      "func": "var obj = {};\nvar par = \"Avg\";\nvalue = (msg.payload);\nobj[par] = value/1.0; \n//obj[par] = msg.payload;\nmsg.payload = obj;\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 980,
+      "y": 140,
+      "wires": [
+        [
+          "90022d64eb723518"
+        ]
+      ]
+    },
+    {
+      "id": "90022d64eb723518",
+      "type": "join",
+      "z": "85928bb7bc71d150",
+      "name": "",
+      "mode": "custom",
+      "build": "merged",
+      "property": "payload",
+      "propertyType": "msg",
+      "key": "topic",
+      "joiner": "\\n",
+      "joinerType": "str",
+      "accumulate": false,
+      "timeout": "",
+      "count": "4",
+      "reduceRight": false,
+      "reduceExp": "",
+      "reduceInit": "",
+      "reduceInitType": "",
+      "reduceFixup": "",
+      "x": 1140,
+      "y": 200,
+      "wires": [
+        [
+          "55e30468b7b762bd",
+          "efe7f7efe55e74cd"
+        ]
+      ]
+    },
+    {
+      "id": "2216c3470f33b407",
+      "type": "function",
+      "z": "85928bb7bc71d150",
+      "name": "",
+      "func": "var obj = {};\nvar par = \"Array of Numbers\";\nvalue = (msg.payload);\nobj[par] = value; \n//obj[par] = msg.payload;\nmsg.payload = obj;\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 640,
+      "y": 180,
+      "wires": [
+        [
+          "90022d64eb723518"
+        ]
+      ]
+    },
+    {
+      "id": "281da47ee524857e",
+      "type": "debug",
+      "z": "85928bb7bc71d150",
+      "name": "",
+      "active": false,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "false",
+      "x": 290,
+      "y": 120,
+      "wires": []
+    },
+    {
+      "id": "55e30468b7b762bd",
+      "type": "function",
+      "z": "85928bb7bc71d150",
+      "name": "Delete Key",
+      "func": "    var property = \"Max\"; // to allow rbe/change of value node to successfully detect value change\n    delete msg.payload[property];\n    \n    //msg.topic = msg.payload.registerId;  \n    msg.payload = msg.payload;\n    \n    return msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 1270,
+      "y": 200,
+      "wires": [
+        [
+          "3cc5c13b88158eb2"
+        ]
+      ]
+    },
+    {
+      "id": "efe7f7efe55e74cd",
+      "type": "debug",
+      "z": "85928bb7bc71d150",
+      "name": "",
+      "active": false,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "false",
+      "x": 1230,
+      "y": 140,
+      "wires": []
+    },
+    {
+      "id": "4b289b7be7f31154",
+      "type": "calculator",
+      "z": "85928bb7bc71d150",
+      "name": "Avg",
+      "inputMsgField": "payload",
+      "outputMsgField": "payload",
+      "operation": "avg",
+      "constant": "",
+      "round": false,
+      "decimals": 0,
+      "x": 630,
+      "y": 140,
+      "wires": [
+        [
+          "2a69988138d65743"
+        ]
+      ]
+    },
+    {
+      "id": "900867a7bee4e91b",
+      "type": "calculator",
+      "z": "85928bb7bc71d150",
+      "name": "Max",
+      "inputMsgField": "payload",
+      "outputMsgField": "payload",
+      "operation": "max",
+      "constant": "",
+      "round": false,
+      "decimals": 0,
+      "x": 630,
+      "y": 220,
+      "wires": [
+        [
+          "921961d607058721"
+        ]
+      ]
+    },
+    {
+      "id": "fc20d332fe230f83",
+      "type": "calculator",
+      "z": "85928bb7bc71d150",
+      "name": "Min",
+      "inputMsgField": "payload",
+      "outputMsgField": "payload",
+      "operation": "min",
+      "constant": "",
+      "round": false,
+      "decimals": 0,
+      "x": 620,
+      "y": 260,
+      "wires": [
+        [
+          "25d46b7bb16af524"
+        ]
+      ]
+    },
+    {
+      "id": "5d2abcf3e1b06f18",
+      "type": "calculator",
+      "z": "85928bb7bc71d150",
+      "name": "Round to 4 Decimals",
+      "inputMsgField": "payload.value",
+      "outputMsgField": "payload",
+      "operation": "rdec",
+      "constant": "4",
+      "round": false,
+      "decimals": "0",
+      "x": 360,
+      "y": 60,
+      "wires": [
+        [
+          "6676651ce392ea17"
+        ]
+      ]
+    },
+    {
+      "id": "2a69988138d65743",
+      "type": "calculator",
+      "z": "85928bb7bc71d150",
+      "name": "Round to 4 Decimals",
+      "inputMsgField": "payload",
+      "outputMsgField": "payload",
+      "operation": "rdec",
+      "constant": "4",
+      "round": false,
+      "decimals": "0",
+      "x": 800,
+      "y": 140,
+      "wires": [
+        [
+          "38598fea39fb7b18"
+        ]
+      ]
+    },
+    {
+      "id": "f0620a80104ef3d1",
+      "type": "Datahub Subscribe",
+      "z": "720a6d3d9b63b431",
+      "name": "Pressure",
+      "natc": "b9aea982.3a068",
+      "topicname": "devicehub.alias.test6.tag1",
+      "x": 80,
+      "y": 20,
+      "wires": [
+        [
+          "5671f80532d3b388",
+          "2b955f0832b773c2"
+        ]
+      ]
+    },
+    {
+      "id": "f3228ef74b41f672",
+      "type": "Datahub Subscribe",
+      "z": "720a6d3d9b63b431",
+      "name": "Chamber1 Temp",
+      "natc": "b9aea982.3a068",
+      "topicname": "devicehub.alias.test6.tag1",
+      "x": 100,
+      "y": 60,
+      "wires": [
+        [
+          "5671f80532d3b388"
+        ]
+      ]
+    },
+    {
+      "id": "2a4967b1d4574b71",
+      "type": "Datahub Subscribe",
+      "z": "720a6d3d9b63b431",
+      "name": "Chamber2 Temp",
+      "natc": "b9aea982.3a068",
+      "topicname": "devicehub.alias.test6.tag1",
+      "x": 100,
+      "y": 100,
+      "wires": [
+        [
+          "5671f80532d3b388"
+        ]
+      ]
+    },
+    {
+      "id": "d2931665d419b2d7",
+      "type": "Datahub Subscribe",
+      "z": "720a6d3d9b63b431",
+      "name": "Chamber3 Temp",
+      "natc": "b9aea982.3a068",
+      "topicname": "devicehub.alias.test6.tag1",
+      "x": 100,
+      "y": 140,
+      "wires": [
+        [
+          "5671f80532d3b388"
+        ]
+      ]
+    },
+    {
+      "id": "fd0cf3efdc36f35c",
+      "type": "Datahub Subscribe",
+      "z": "720a6d3d9b63b431",
+      "name": "Actual Glass Temp",
+      "natc": "b9aea982.3a068",
+      "topicname": "devicehub.alias.test6.tag1",
+      "x": 110,
+      "y": 180,
+      "wires": [
+        [
+          "5671f80532d3b388"
+        ]
+      ]
+    },
+    {
+      "id": "9d9d1a3558c55611",
+      "type": "Datahub Subscribe",
+      "z": "720a6d3d9b63b431",
+      "name": "Product Produced",
+      "natc": "b9aea982.3a068",
+      "topicname": "devicehub.alias.test6.tag1",
+      "x": 110,
+      "y": 220,
+      "wires": [
+        [
+          "5671f80532d3b388"
+        ]
+      ]
+    },
+    {
+      "id": "5671f80532d3b388",
+      "type": "json",
+      "z": "720a6d3d9b63b431",
+      "name": "",
+      "property": "payload",
+      "action": "",
+      "pretty": false,
+      "x": 330,
+      "y": 120,
+      "wires": [
+        [
+          "962dd724fd833351"
+        ]
+      ]
+    },
+    {
+      "id": "30093dee537ccadd",
+      "type": "join",
+      "z": "720a6d3d9b63b431",
+      "name": "Merged Object",
+      "mode": "custom",
+      "build": "merged",
+      "property": "payload",
+      "propertyType": "msg",
+      "key": "topic",
+      "joiner": "\\n",
+      "joinerType": "str",
+      "accumulate": true,
+      "timeout": "",
+      "count": "7",
+      "reduceRight": false,
+      "reduceExp": "",
+      "reduceInit": "",
+      "reduceInitType": "num",
+      "reduceFixup": "",
+      "x": 900,
+      "y": 120,
+      "wires": [
+        [
+          "9a82c9831f467670",
+          "82e7f0d43aa006bc",
+          "5a8373dd5a741e52"
+        ]
+      ]
+    },
+    {
+      "id": "962dd724fd833351",
+      "type": "function",
+      "z": "720a6d3d9b63b431",
+      "name": "Extract Data ",
+      "func": "var obj = {};\nname = msg.payload.tagName;\nvalue = (msg.payload.value);\nobj[name] = value/1.0; \nmsg.payload = obj;\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 470,
+      "y": 120,
+      "wires": [
+        []
+      ]
+    },
+    {
+      "id": "9a82c9831f467670",
+      "type": "debug",
+      "z": "720a6d3d9b63b431",
+      "name": "",
+      "active": false,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "false",
+      "x": 1090,
+      "y": 40,
+      "wires": []
+    },
+    {
+      "id": "5a8373dd5a741e52",
+      "type": "influxdb out",
+      "z": "720a6d3d9b63b431",
+      "influxdb": "2673bd21.79d142",
+      "name": "Insert Data",
+      "measurement": "Process_Parameters_all",
+      "precision": "",
+      "retentionPolicy": "",
+      "x": 1090,
+      "y": 80,
+      "wires": []
+    },
+    {
+      "id": "ac7dd8d2c877571c",
+      "type": "debug",
+      "z": "720a6d3d9b63b431",
+      "name": "",
+      "active": false,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "false",
+      "x": 550,
+      "y": 20,
+      "wires": []
+    },
+    {
+      "id": "62724bf1f54c5c79",
+      "type": "Datahub Publish",
+      "z": "720a6d3d9b63b431",
+      "name": "Publish to DH",
+      "natc": "b9aea982.3a068",
+      "topicname": "Process_Parameters_to_publish",
+      "x": 1280,
+      "y": 120,
+      "wires": []
+    },
+    {
+      "id": "82e7f0d43aa006bc",
+      "type": "json",
+      "z": "720a6d3d9b63b431",
+      "name": "",
+      "property": "payload",
+      "action": "",
+      "pretty": false,
+      "x": 1070,
+      "y": 120,
+      "wires": [
+        [
+          "62724bf1f54c5c79",
+          "94105c7cdeb05ac8"
+        ]
+      ]
+    },
+    {
+      "id": "7b07305a1a39870b",
+      "type": "debug",
+      "z": "720a6d3d9b63b431",
+      "name": "",
+      "active": false,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "false",
+      "x": 1370,
+      "y": 180,
+      "wires": []
+    },
+    {
+      "id": "94105c7cdeb05ac8",
+      "type": "json",
+      "z": "720a6d3d9b63b431",
+      "name": "",
+      "property": "payload",
+      "action": "",
+      "pretty": false,
+      "x": 1210,
+      "y": 180,
+      "wires": [
+        [
+          "7b07305a1a39870b"
+        ]
+      ]
+    },
+    {
+      "id": "2b955f0832b773c2",
+      "type": "json",
+      "z": "720a6d3d9b63b431",
+      "name": "",
+      "property": "payload",
+      "action": "",
+      "pretty": false,
+      "x": 370,
+      "y": 20,
+      "wires": [
+        [
+          "ac7dd8d2c877571c"
+        ]
+      ]
+    },
+    {
+      "id": "0b4985476b10d44e",
+      "type": "Datahub Subscribe",
+      "z": "8ab4328a27a5513f",
+      "name": "Temp",
+      "natc": "b9aea982.3a068",
+      "topicname": "devicehub.alias.test6.tag1",
+      "x": 60,
+      "y": 60,
+      "wires": [
+        [
+          "4fc32aca61865979"
+        ]
+      ]
+    },
+    {
+      "id": "4fc32aca61865979",
+      "type": "json",
+      "z": "8ab4328a27a5513f",
+      "name": "",
+      "property": "payload",
+      "action": "",
+      "pretty": false,
+      "x": 180,
+      "y": 60,
+      "wires": [
+        [
+          "6d0a070b02ac3df7"
+        ]
+      ]
+    },
+    {
+      "id": "6d0a070b02ac3df7",
+      "type": "join",
+      "z": "8ab4328a27a5513f",
+      "name": "Collect Samples",
+      "mode": "custom",
+      "build": "array",
+      "property": "payload",
+      "propertyType": "msg",
+      "key": "topic",
+      "joiner": "\\n",
+      "joinerType": "str",
+      "accumulate": false,
+      "timeout": "",
+      "count": "25",
+      "reduceRight": false,
+      "reduceExp": "",
+      "reduceInit": "",
+      "reduceInitType": "",
+      "reduceFixup": "",
+      "x": 340,
+      "y": 60,
+      "wires": [
+        [
+          "07d845c319983151"
+        ]
+      ]
+    },
+    {
+      "id": "6bec7f87717e24e6",
+      "type": "debug",
+      "z": "8ab4328a27a5513f",
+      "name": "Display Result",
+      "active": false,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "true",
+      "targetType": "full",
+      "x": 720,
+      "y": 60,
+      "wires": []
+    },
+    {
+      "id": "d4957de875941824",
+      "type": "change",
+      "z": "8ab4328a27a5513f",
+      "name": "SPC Summary Result",
+      "rules": [
+        {
+          "t": "set",
+          "p": "payload",
+          "pt": "msg",
+          "to": "summary.value",
+          "tot": "msg"
+        }
+      ],
+      "action": "",
+      "property": "",
+      "from": "",
+      "to": "",
+      "reg": false,
+      "x": 740,
+      "y": 100,
+      "wires": [
+        [
+          "5bbb95a7e2a397f6"
+        ]
+      ]
+    },
+    {
+      "id": "5bbb95a7e2a397f6",
+      "type": "influxdb out",
+      "z": "8ab4328a27a5513f",
+      "influxdb": "2673bd21.79d142",
+      "name": "InfluxDB",
+      "measurement": "SPC_Data_output",
+      "precision": "",
+      "retentionPolicy": "",
+      "x": 940,
+      "y": 100,
+      "wires": []
+    },
+    {
+      "id": "a2ab0e6797aa3860",
+      "type": "influxdb out",
+      "z": "8ab4328a27a5513f",
+      "influxdb": "2673bd21.79d142",
+      "name": "InfluxDB",
+      "measurement": "SPC_Data_input",
+      "precision": "",
+      "retentionPolicy": "",
+      "x": 940,
+      "y": 140,
+      "wires": []
+    },
+    {
+      "id": "44648d969cecd858",
+      "type": "change",
+      "z": "8ab4328a27a5513f",
+      "name": "SPC Input Data",
+      "rules": [
+        {
+          "t": "set",
+          "p": "payload",
+          "pt": "msg",
+          "to": "payload",
+          "tot": "msg"
+        }
+      ],
+      "action": "",
+      "property": "",
+      "from": "",
+      "to": "",
+      "reg": false,
+      "x": 720,
+      "y": 140,
+      "wires": [
+        [
+          "a2ab0e6797aa3860"
+        ]
+      ]
+    },
+    {
+      "id": "07d845c319983151",
+      "type": "spc",
+      "z": "8ab4328a27a5513f",
+      "name": "SPC",
+      "columns": "value",
+      "bucketCount": 50,
+      "keyField": "timestamp",
+      "typeField": "registerId",
+      "groupField": "",
+      "x": 510,
+      "y": 60,
+      "wires": [
+        [
+          "6bec7f87717e24e6",
+          "d4957de875941824",
+          "44648d969cecd858"
+        ]
+      ]
+    },
+    {
+      "id": "19f8489c7593ccad",
+      "type": "batch",
+      "z": "70786ccdd76fdc13",
+      "name": "",
+      "mode": "count",
+      "count": "2",
+      "overlap": "0",
+      "interval": 10,
+      "allowEmptySequence": false,
+      "topics": [],
+      "x": 330,
+      "y": 40,
+      "wires": [
+        [
+          "79b00cd6825812db"
+        ]
+      ]
+    },
+    {
+      "id": "4c017c21d9308715",
+      "type": "Datahub Subscribe",
+      "z": "70786ccdd76fdc13",
+      "name": "Temp",
+      "natc": "b9aea982.3a068",
+      "topicname": "devicehub.alias.test6.tag1",
+      "x": 80,
+      "y": 40,
+      "wires": [
+        [
+          "b06d88a7fc5ff2de"
+        ]
+      ]
+    },
+    {
+      "id": "79b00cd6825812db",
+      "type": "join",
+      "z": "70786ccdd76fdc13",
+      "name": "",
+      "mode": "auto",
+      "build": "string",
+      "property": "payload",
+      "propertyType": "msg",
+      "key": "topic",
+      "joiner": "\\n",
+      "joinerType": "str",
+      "accumulate": "false",
+      "timeout": "",
+      "count": "",
+      "reduceRight": false,
+      "x": 460,
+      "y": 40,
+      "wires": [
+        [
+          "d3fbed2b247464a7",
+          "9726f0ab7e224611"
+        ]
+      ]
+    },
+    {
+      "id": "b06d88a7fc5ff2de",
+      "type": "json",
+      "z": "70786ccdd76fdc13",
+      "name": "",
+      "property": "payload",
+      "action": "",
+      "pretty": false,
+      "x": 200,
+      "y": 40,
+      "wires": [
+        [
+          "19f8489c7593ccad"
+        ]
+      ]
+    },
+    {
+      "id": "d3fbed2b247464a7",
+      "type": "debug",
+      "z": "70786ccdd76fdc13",
+      "name": "",
+      "active": false,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "false",
+      "x": 650,
+      "y": 40,
+      "wires": []
+    },
+    {
+      "id": "9726f0ab7e224611",
+      "type": "change",
+      "z": "70786ccdd76fdc13",
+      "name": "Assign to Global Variables",
+      "rules": [
+        {
+          "t": "set",
+          "p": "prev_0",
+          "pt": "global",
+          "to": "current_prev",
+          "tot": "global"
+        },
+        {
+          "t": "set",
+          "p": "prev_1",
+          "pt": "global",
+          "to": "current_pres",
+          "tot": "global"
+        },
+        {
+          "t": "set",
+          "p": "current_prev",
+          "pt": "global",
+          "to": "payload[0].value",
+          "tot": "msg"
+        },
+        {
+          "t": "set",
+          "p": "current_pres",
+          "pt": "global",
+          "to": "payload[1].value",
+          "tot": "msg"
+        },
+        {
+          "t": "set",
+          "p": "Previous_0",
+          "pt": "msg",
+          "to": "prev_0",
+          "tot": "global"
+        },
+        {
+          "t": "set",
+          "p": "Previous_1",
+          "pt": "msg",
+          "to": "prev_1",
+          "tot": "global"
+        },
+        {
+          "t": "set",
+          "p": "Current_prev",
+          "pt": "msg",
+          "to": "current_prev",
+          "tot": "global"
+        },
+        {
+          "t": "set",
+          "p": "Current_pres",
+          "pt": "msg",
+          "to": "current_pres",
+          "tot": "global"
+        }
+      ],
+      "action": "",
+      "property": "",
+      "from": "",
+      "to": "",
+      "reg": false,
+      "x": 690,
+      "y": 80,
+      "wires": [
+        [
+          "3dea391cfb6a4725"
+        ]
+      ]
+    },
+    {
+      "id": "3dea391cfb6a4725",
+      "type": "debug",
+      "z": "70786ccdd76fdc13",
+      "name": "",
+      "active": false,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "true",
+      "targetType": "full",
+      "x": 890,
+      "y": 80,
+      "wires": []
+    },
+    {
+      "id": "90e3f837180c2a35",
+      "type": "inject",
+      "z": "308f8dfaa8d33b2d",
+      "name": "Inject Sample 1",
+      "repeat": "",
+      "crontab": "",
+      "once": false,
+      "onceDelay": 0.1,
+      "topic": "",
+      "payload": "",
+      "payloadType": "date",
+      "x": 160,
+      "y": 100,
+      "wires": [
+        [
+          "47488296900752e8"
+        ]
+      ]
+    },
+    {
+      "id": "47488296900752e8",
+      "type": "function",
+      "z": "308f8dfaa8d33b2d",
+      "name": "sample 1",
+      "func": "msg.payload = {time: 1, data: 7}\nreturn msg",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 400,
+      "y": 100,
+      "wires": [
+        [
+          "673d891a2cea0af6"
+        ]
+      ]
+    },
+    {
+      "id": "c185b2822aaa9771",
+      "type": "debug",
+      "z": "308f8dfaa8d33b2d",
+      "name": "",
+      "active": true,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "true",
+      "targetType": "full",
+      "x": 810,
+      "y": 160,
+      "wires": []
+    },
+    {
+      "id": "800b937210dcbc08",
+      "type": "function",
+      "z": "308f8dfaa8d33b2d",
+      "name": "sample 2",
+      "func": "msg.payload = {time: 2, data: 10}\nreturn msg",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 400,
+      "y": 160,
+      "wires": [
+        [
+          "673d891a2cea0af6"
+        ]
+      ]
+    },
+    {
+      "id": "5910781b13bacb0b",
+      "type": "inject",
+      "z": "308f8dfaa8d33b2d",
+      "name": "Inject Sample 2",
+      "repeat": "",
+      "crontab": "",
+      "once": false,
+      "onceDelay": 0.1,
+      "topic": "",
+      "payload": "",
+      "payloadType": "date",
+      "x": 160,
+      "y": 160,
+      "wires": [
+        [
+          "800b937210dcbc08"
+        ]
+      ]
+    },
+    {
+      "id": "c6dbf55912de5791",
+      "type": "inject",
+      "z": "308f8dfaa8d33b2d",
+      "name": "Clear data",
+      "repeat": "",
+      "crontab": "",
+      "once": false,
+      "onceDelay": 0.1,
+      "topic": "",
+      "payload": "",
+      "payloadType": "date",
+      "x": 400,
+      "y": 40,
+      "wires": [
+        [
+          "673d891a2cea0af6"
+        ]
+      ]
+    },
+    {
+      "id": "c7fa053d868a412d",
+      "type": "inject",
+      "z": "308f8dfaa8d33b2d",
+      "name": "Inject Sample 3",
+      "repeat": "",
+      "crontab": "",
+      "once": false,
+      "onceDelay": 0.1,
+      "topic": "",
+      "payload": "",
+      "payloadType": "date",
+      "x": 160,
+      "y": 220,
+      "wires": [
+        [
+          "a5b2294a21750f6c"
+        ]
+      ]
+    },
+    {
+      "id": "a5b2294a21750f6c",
+      "type": "function",
+      "z": "308f8dfaa8d33b2d",
+      "name": "sample 3",
+      "func": "msg.payload = {time: 3, data: 8.5}\nreturn msg",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 400,
+      "y": 220,
+      "wires": [
+        [
+          "673d891a2cea0af6"
+        ]
+      ]
+    },
+    {
+      "id": "673d891a2cea0af6",
+      "type": "regression",
+      "z": "308f8dfaa8d33b2d",
+      "name": "",
+      "dataSetSize": 0,
+      "regressionType": "linear",
+      "polynomialOrder": "1",
+      "precision": 2,
+      "xInputField": "payload.time",
+      "xInputFieldType": "msg",
+      "yInputField": "payload.data",
+      "yInputFieldType": "msg",
+      "yOutputField": "topic",
+      "yOutputFieldType": "msg",
+      "functionOutputField": "string",
+      "functionOutputFieldType": "msg",
+      "resultOnly": false,
+      "x": 610,
+      "y": 160,
+      "wires": [
+        [
+          "c185b2822aaa9771"
+        ]
+      ]
+    },
+    {
+      "id": "2c976c3f5941e950",
+      "type": "Datahub Subscribe",
+      "z": "0abc0aa82a012684",
+      "name": "Sample Data",
+      "natc": "b9aea982.3a068",
+      "topicname": "devicehub.alias.test6.tag1",
+      "x": 70,
+      "y": 100,
+      "wires": [
+        [
+          "edb142ca3e73db5d"
+        ]
+      ]
+    },
+    {
+      "id": "2a78e6d376342c4e",
+      "type": "debug",
+      "z": "0abc0aa82a012684",
+      "name": "",
+      "active": false,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "true",
+      "targetType": "full",
+      "x": 1410,
+      "y": 200,
+      "wires": []
+    },
+    {
+      "id": "edb142ca3e73db5d",
+      "type": "json",
+      "z": "0abc0aa82a012684",
+      "name": "",
+      "property": "payload",
+      "action": "",
+      "pretty": false,
+      "x": 230,
+      "y": 100,
+      "wires": [
+        [
+          "3aef50cefed5e259"
+        ]
+      ]
+    },
+    {
+      "id": "684a5b767a05454a",
+      "type": "change",
+      "z": "0abc0aa82a012684",
+      "name": "",
+      "rules": [
+        {
+          "t": "set",
+          "p": "temp",
+          "pt": "msg",
+          "to": "payload.tagName",
+          "tot": "msg"
+        },
+        {
+          "t": "set",
+          "p": "DeviceName",
+          "pt": "msg",
+          "to": "payload.deviceName",
+          "tot": "msg"
+        },
+        {
+          "t": "delete",
+          "p": "payload.deviceName",
+          "pt": "msg"
+        }
+      ],
+      "action": "",
+      "property": "",
+      "from": "",
+      "to": "",
+      "reg": false,
+      "x": 1430,
+      "y": 100,
+      "wires": [
+        [
+          "2a78e6d376342c4e",
+          "1ecb9b14064417e7"
+        ]
+      ]
+    },
+    {
+      "id": "eb76aebfaf088ae2",
+      "type": "switch",
+      "z": "0abc0aa82a012684",
+      "name": "Shift Define",
+      "property": "payload.Hour",
+      "propertyType": "msg",
+      "rules": [
+        {
+          "t": "btwn",
+          "v": "0601",
+          "vt": "num",
+          "v2": "1400",
+          "v2t": "num"
+        },
+        {
+          "t": "btwn",
+          "v": "1401",
+          "vt": "num",
+          "v2": "2200",
+          "v2t": "num"
+        },
+        {
+          "t": "else"
+        }
+      ],
+      "checkall": "true",
+      "repair": false,
+      "outputs": 3,
+      "x": 840,
+      "y": 100,
+      "wires": [
+        [
+          "fb619f0f2cc1058e"
+        ],
+        [
+          "d4cce2de1a1cd063"
+        ],
+        [
+          "6c0f7c7a710efeac"
+        ]
+      ]
+    },
+    {
+      "id": "fb619f0f2cc1058e",
+      "type": "change",
+      "z": "0abc0aa82a012684",
+      "name": "A",
+      "rules": [
+        {
+          "t": "set",
+          "p": "payload.shift",
+          "pt": "msg",
+          "to": "A",
+          "tot": "str"
+        },
+        {
+          "t": "set",
+          "p": "payload.prodtimestamp",
+          "pt": "msg",
+          "to": "payload.timestamp",
+          "tot": "msg"
+        }
+      ],
+      "action": "",
+      "property": "",
+      "from": "",
+      "to": "",
+      "reg": false,
+      "x": 990,
+      "y": 60,
+      "wires": [
+        []
+      ]
+    },
+    {
+      "id": "6c0f7c7a710efeac",
+      "type": "function",
+      "z": "0abc0aa82a012684",
+      "name": "C",
+      "func": "var d = new Date(msg.payload.timestamp);\nmsg.payload.prodtimestamp = d.setDate(d.getDate()-1);\nmsg.payload.shift = \"C\"; \nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 990,
+      "y": 140,
+      "wires": [
+        []
+      ]
+    },
+    {
+      "id": "d4cce2de1a1cd063",
+      "type": "change",
+      "z": "0abc0aa82a012684",
+      "name": "B",
+      "rules": [
+        {
+          "t": "set",
+          "p": "payload.shift",
+          "pt": "msg",
+          "to": "B",
+          "tot": "str"
+        },
+        {
+          "t": "set",
+          "p": "payload.prodtimestamp",
+          "pt": "msg",
+          "to": "payload.timestamp",
+          "tot": "msg"
+        }
+      ],
+      "action": "",
+      "property": "",
+      "from": "",
+      "to": "",
+      "reg": false,
+      "x": 990,
+      "y": 100,
+      "wires": [
+        []
+      ]
+    },
+    {
+      "id": "1ecb9b14064417e7",
+      "type": "influxdb out",
+      "z": "0abc0aa82a012684",
+      "influxdb": "2673bd21.79d142",
+      "name": "tsdata",
+      "measurement": "Prod_Shift_Declared_Data",
+      "precision": "",
+      "retentionPolicy": "",
+      "x": 1410,
+      "y": 160,
+      "wires": []
+    },
+    {
+      "id": "3aef50cefed5e259",
+      "type": "debug",
+      "z": "0abc0aa82a012684",
+      "name": "",
+      "active": false,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "false",
+      "x": 210,
+      "y": 40,
+      "wires": []
+    },
+    {
+      "id": "9bfc020dc0713cbd",
+      "type": "mysql",
+      "z": "4faf9987f34d100a",
+      "mydb": "fe8c2fbe88bb03ca",
+      "name": "",
+      "x": 680,
+      "y": 40,
+      "wires": [
+        [
+          "e775de2344adca23",
+          "e68c56aebac4f051",
+          "052875b3c003b84b",
+          "330b688a522640e1",
+          "cf9b176c74fa2e62"
+        ]
+      ]
+    },
+    {
+      "id": "b3e02625254af7d3",
+      "type": "function",
+      "z": "4faf9987f34d100a",
+      "name": "",
+      "func": "msg.topic = \"SELECT *, sysdatetime as captureTime FROM mcfc_Hourly_data where sysdate = '\" + msg.FormattedDate + \"' \";\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 480,
+      "y": 40,
+      "wires": [
+        [
+          "9bfc020dc0713cbd"
+        ]
+      ]
+    },
+    {
+      "id": "d64a72bd93e3e5f2",
+      "type": "ui_date_picker",
+      "z": "4faf9987f34d100a",
+      "name": "Select Date",
+      "label": "Select Date",
+      "group": "d06c6b6bf582009a",
+      "order": 2,
+      "width": "0",
+      "height": "0",
+      "passthru": true,
+      "topic": "selecteddate",
+      "x": 90,
+      "y": 40,
+      "wires": [
+        [
+          "891dbdbab4d3cf36"
+        ]
+      ]
+    },
+    {
+      "id": "e775de2344adca23",
+      "type": "debug",
+      "z": "4faf9987f34d100a",
+      "name": "",
+      "active": false,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "true",
+      "targetType": "full",
+      "x": 850,
+      "y": 20,
+      "wires": []
+    },
+    {
+      "id": "052875b3c003b84b",
+      "type": "change",
+      "z": "4faf9987f34d100a",
+      "name": "",
+      "rules": [
+        {
+          "t": "set",
+          "p": "payload",
+          "pt": "msg",
+          "to": "[{\t    \"series\": [\"extracted_amount_tphr\"],\t    \"labels\": [\"extracted_amount_tphr\"],\t    \"data\": [[payload.{\t        \"x\": captureTime,\t        \"y\": $.\"extracted_amount_tphr\"\t    }]]\t}]",
+          "tot": "jsonata"
+        }
+      ],
+      "action": "",
+      "property": "",
+      "from": "",
+      "to": "",
+      "reg": false,
+      "x": 880,
+      "y": 100,
+      "wires": [
+        [
+          "303e21715cf8d2fd",
+          "566a7a4446d6b469",
+          "2e30e51a4cb0e5da"
+        ]
+      ]
+    },
+    {
+      "id": "303e21715cf8d2fd",
+      "type": "ui_chart",
+      "z": "4faf9987f34d100a",
+      "name": "",
+      "group": "0b74ea4cbc6f9307",
+      "order": 2,
+      "width": 0,
+      "height": 0,
+      "label": "Trend of Hourly Output",
+      "chartType": "line",
+      "legend": "true",
+      "xformat": "HH:mm",
+      "interpolate": "linear",
+      "nodata": "",
+      "dot": true,
+      "ymin": "",
+      "ymax": "",
+      "removeOlder": "1",
+      "removeOlderPoints": "100",
+      "removeOlderUnit": "86400",
+      "cutout": 0,
+      "useOneColor": false,
+      "useUTC": false,
+      "colors": [
+        "#1f77b4",
+        "#aec7e8",
+        "#ff7f0e",
+        "#2ca02c",
+        "#8cec79",
+        "#d62728",
+        "#ff9896",
+        "#9467bd",
+        "#c5b0d5"
+      ],
+      "outputs": 1,
+      "x": 1100,
+      "y": 120,
+      "wires": [
+        []
+      ]
+    },
+    {
+      "id": "95a7967d9e26eec2",
+      "type": "ui_gauge",
+      "z": "4faf9987f34d100a",
+      "name": "",
+      "group": "0b74ea4cbc6f9307",
+      "order": 2,
+      "width": 0,
+      "height": 0,
+      "gtype": "gage",
+      "title": "Total Production in a Day",
+      "label": "Tons",
+      "format": "{{value}}",
+      "min": 0,
+      "max": 10,
+      "colors": [
+        "#00b500",
+        "#e6e600",
+        "#ca3838"
+      ],
+      "seg1": "",
+      "seg2": "",
+      "x": 1290,
+      "y": 160,
+      "wires": []
+    },
+    {
+      "id": "566a7a4446d6b469",
+      "type": "debug",
+      "z": "4faf9987f34d100a",
+      "name": "",
+      "active": false,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "false",
+      "x": 1070,
+      "y": 80,
+      "wires": []
+    },
+    {
+      "id": "2e30e51a4cb0e5da",
+      "type": "change",
+      "z": "4faf9987f34d100a",
+      "name": "",
+      "rules": [
+        {
+          "t": "set",
+          "p": "payload",
+          "pt": "msg",
+          "to": "$sum(payload.data.y)\t",
+          "tot": "jsonata"
+        }
+      ],
+      "action": "",
+      "property": "",
+      "from": "",
+      "to": "",
+      "reg": false,
+      "x": 1080,
+      "y": 160,
+      "wires": [
+        [
+          "95a7967d9e26eec2",
+          "7ca27bad0e0e83ac"
+        ]
+      ]
+    },
+    {
+      "id": "330b688a522640e1",
+      "type": "change",
+      "z": "4faf9987f34d100a",
+      "name": "",
+      "rules": [
+        {
+          "t": "set",
+          "p": "payload",
+          "pt": "msg",
+          "to": "[{\"name\": payload.Product_Code,\"totalqty\":$sum(payload.extracted_amount_tphr)}]",
+          "tot": "jsonata"
+        }
+      ],
+      "action": "",
+      "property": "",
+      "from": "",
+      "to": "",
+      "reg": false,
+      "x": 880,
+      "y": 240,
+      "wires": [
+        [
+          "204777e0e0709518"
+        ]
+      ]
+    },
+    {
+      "id": "204777e0e0709518",
+      "type": "debug",
+      "z": "4faf9987f34d100a",
+      "name": "",
+      "active": false,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "false",
+      "x": 1070,
+      "y": 240,
+      "wires": []
+    },
+    {
+      "id": "7ca27bad0e0e83ac",
+      "type": "ui_text",
+      "z": "4faf9987f34d100a",
+      "group": "0b74ea4cbc6f9307",
+      "order": 3,
+      "width": 0,
+      "height": 0,
+      "name": "",
+      "label": "Total Production in a Day (Tons)",
+      "format": "{{msg.payload}}",
+      "layout": "row-spread",
+      "x": 1310,
+      "y": 200,
+      "wires": []
+    },
+    {
+      "id": "cf9b176c74fa2e62",
+      "type": "debug",
+      "z": "4faf9987f34d100a",
+      "name": "",
+      "active": true,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "false",
+      "x": 1010,
+      "y": 20,
+      "wires": []
+    },
+    {
+      "id": "891dbdbab4d3cf36",
+      "type": "moment",
+      "z": "4faf9987f34d100a",
+      "name": "",
+      "topic": "",
+      "input": "payload",
+      "format": "DD-MM-YYYY",
+      "locale": "Asia/Kolkata",
+      "output": "FormattedDate",
+      "x": 280,
+      "y": 40,
+      "wires": [
+        [
+          "b3e02625254af7d3"
+        ]
+      ]
+    },
+    {
+      "id": "e68c56aebac4f051",
+      "type": "ui_table",
+      "z": "4faf9987f34d100a",
+      "group": "dd48e492.e629b",
+      "name": "Hourly Data",
+      "order": 2,
+      "width": "2",
+      "height": "1",
+      "columns": [
+        {
+          "field": "sysdate",
+          "title": "Date",
+          "width": "15%",
+          "align": "center",
+          "formatter": "plaintext",
+          "formatterParams": {
+            "target": "_blank"
+          }
+        },
+        {
+          "field": "hr",
+          "title": "Hour",
+          "width": "10",
+          "align": "right",
+          "formatter": "plaintext",
+          "formatterParams": {
+            "target": "_blank"
+          }
+        },
+        {
+          "field": "Product_Code",
+          "title": "Product Code",
+          "width": "10",
+          "align": "left",
+          "formatter": "plaintext",
+          "formatterParams": {
+            "target": "_blank"
+          }
+        },
+        {
+          "field": "Water_Guaranteed_value_per",
+          "title": "Water Guaranteed",
+          "width": "15",
+          "align": "left",
+          "formatter": "plaintext",
+          "formatterParams": {
+            "target": "_blank"
+          }
+        },
+        {
+          "field": "Heavy_oil_flow_ltphr",
+          "title": "Oil Flow Rate",
+          "width": "15",
+          "align": "left",
+          "formatter": "plaintext",
+          "formatterParams": {
+            "target": "_blank"
+          }
+        },
+        {
+          "field": "Inlet_Temp_C",
+          "title": "Inlet Temp",
+          "width": "",
+          "align": "left",
+          "formatter": "plaintext",
+          "formatterParams": {
+            "target": "_blank"
+          }
+        },
+        {
+          "field": "Outlet_Temp_C",
+          "title": "Outlet Temp",
+          "width": "",
+          "align": "left",
+          "formatter": "plaintext",
+          "formatterParams": {
+            "target": "_blank"
+          }
+        },
+        {
+          "field": "processed_amount_tphr",
+          "title": "Processed Amount",
+          "width": "",
+          "align": "center",
+          "formatter": "plaintext",
+          "formatterParams": {
+            "target": "_blank"
+          }
+        },
+        {
+          "field": "raw_material_amount_tphr",
+          "title": "Raw Material Amount",
+          "width": "",
+          "align": "center",
+          "formatter": "plaintext",
+          "formatterParams": {
+            "target": "_blank"
+          }
+        },
+        {
+          "field": "recycled_amount_tphr",
+          "title": "Recycled Amount",
+          "width": "",
+          "align": "center",
+          "formatter": "plaintext",
+          "formatterParams": {
+            "target": "_blank"
+          }
+        },
+        {
+          "field": "extracted_amount_tphr",
+          "title": "Output Amount",
+          "width": "",
+          "align": "center",
+          "formatter": "plaintext",
+          "formatterParams": {
+            "target": "_blank"
+          }
+        },
+        {
+          "field": "pelletization_ratio_per",
+          "title": "Pelletization Ratio",
+          "width": "",
+          "align": "center",
+          "formatter": "plaintext",
+          "formatterParams": {
+            "target": "_blank"
+          }
+        }
+      ],
+      "outputs": 0,
+      "cts": false,
+      "x": 870,
+      "y": 60,
+      "wires": []
+    },
+    {
+      "id": "a990cb48c2c5ee1b",
+      "type": "function",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "func": "var m={};\nm.labels = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\", \"July\"];\nm.series = ['Series A', 'Series B', 'Series C'];\nm.data = [\n    [65, 59, 80, 81, 56, 55, 40],\n    [28, 48, 40, 19, 86, 27, 90],\n    [38, 28, 20, 49, 45, 60, 20]\n  ];\nreturn {payload:[m]};",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 345,
+      "y": 360,
+      "wires": [
+        [
+          "3a18620bfe4fa206",
+          "aa7d44fca66c116b",
+          "b7a7996247aba75a",
+          "057348e28cb46c19"
+        ]
+      ]
+    },
+    {
+      "id": "3a18620bfe4fa206",
+      "type": "ui_chart",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "group": "cc76cdb9ad01bf36",
+      "order": 1,
+      "width": 0,
+      "height": 0,
+      "label": "line chart",
+      "chartType": "line",
+      "legend": "false",
+      "xformat": "auto",
+      "interpolate": "linear",
+      "nodata": "No Data",
+      "dot": false,
+      "ymin": "",
+      "ymax": "",
+      "removeOlder": 1,
+      "removeOlderPoints": "",
+      "removeOlderUnit": "3600",
+      "cutout": 0,
+      "useOneColor": false,
+      "useUTC": false,
+      "colors": [
+        "#1f77b4",
+        "#aec7e8",
+        "#ff7f0e",
+        "#2ca02c",
+        "#98df8a",
+        "#d62728",
+        "#ff9896",
+        "#9467bd",
+        "#c5b0d5"
+      ],
+      "outputs": 1,
+      "x": 615,
+      "y": 100,
+      "wires": [
+        []
+      ]
+    },
+    {
+      "id": "a6e8d1766beb7779",
+      "type": "function",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "func": "var chart = [{\n    \"series\":[\"A\",\"B\",\"C\"],\n    \"data\":[[{\"x\":1504029632890,\"y\":5},{\"x\":1504029636001,\"y\":4},{\"x\":1504029638656,\"y\":2}],[{\"x\":1504029633514,\"y\":6},{\"x\":1504029636622,\"y\":7},{\"x\":1504029639539,\"y\":6}],[{\"x\":1504029634400,\"y\":7},{\"x\":1504029637959,\"y\":9},{\"x\":1504029640317,\"y\":7}]],\n    \"labels\":[\"\"]\n}];\nmsg.payload = chart;\n\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 345,
+      "y": 200,
+      "wires": [
+        [
+          "3a18620bfe4fa206"
+        ]
+      ]
+    },
+    {
+      "id": "979fb6be1c86e48e",
+      "type": "ui_button",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "group": "9f42dde2236b0964",
+      "order": 1,
+      "width": 0,
+      "height": 0,
+      "passthru": false,
+      "label": "Time Line 1",
+      "color": "",
+      "bgcolor": "",
+      "icon": "",
+      "payload": "",
+      "payloadType": "str",
+      "topic": "",
+      "x": 140,
+      "y": 200,
+      "wires": [
+        [
+          "a6e8d1766beb7779"
+        ]
+      ]
+    },
+    {
+      "id": "aa7d44fca66c116b",
+      "type": "ui_chart",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "group": "cc76cdb9ad01bf36",
+      "order": 2,
+      "width": 0,
+      "height": 0,
+      "label": "bar chart",
+      "chartType": "bar",
+      "legend": "false",
+      "xformat": "HH:mm:ss",
+      "interpolate": "linear",
+      "nodata": "No Data",
+      "dot": false,
+      "ymin": "",
+      "ymax": "",
+      "removeOlder": 1,
+      "removeOlderPoints": "",
+      "removeOlderUnit": "3600",
+      "cutout": 0,
+      "colors": [
+        "#1f77b4",
+        "#aec7e8",
+        "#ff7f0e",
+        "#2ca02c",
+        "#98df8a",
+        "#d62728",
+        "#ff9896",
+        "#9467bd",
+        "#c5b0d5"
+      ],
+      "outputs": 1,
+      "x": 615,
+      "y": 160,
+      "wires": [
+        []
+      ]
+    },
+    {
+      "id": "9c3dd4eaba1dc5cc",
+      "type": "ui_button",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "group": "9f42dde2236b0964",
+      "order": 5,
+      "width": 0,
+      "height": 0,
+      "passthru": false,
+      "label": "array",
+      "color": "",
+      "bgcolor": "",
+      "icon": "",
+      "payload": "",
+      "payloadType": "str",
+      "topic": "",
+      "x": 185,
+      "y": 360,
+      "wires": [
+        [
+          "a990cb48c2c5ee1b"
+        ]
+      ]
+    },
+    {
+      "id": "844690480c8f84de",
+      "type": "inject",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "repeat": "",
+      "crontab": "",
+      "once": false,
+      "topic": "",
+      "payload": "",
+      "payloadType": "str",
+      "x": 205,
+      "y": 560,
+      "wires": [
+        [
+          "427ebc5e94f97efe"
+        ]
+      ]
+    },
+    {
+      "id": "60d070840ffb5ca3",
+      "type": "function",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "func": "var m={};\nm.labels = [10,20,30,40,50,60,70];\nm.series = ['Series A', 'Series B', 'Series C', 'Series D'];\nm.data = [\n    [65, 59, 80, 81, 56, 55, 40],\n    [28, 48, 40, 19, 86, 27, 90],\n    [38, 28, 20, 49, 45, 60, 20],\n    [58, 18, 40, 29, 15, 30, 60]\n  ];\nreturn {payload:[m]};",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 345,
+      "y": 400,
+      "wires": [
+        [
+          "3a18620bfe4fa206",
+          "aa7d44fca66c116b",
+          "b7a7996247aba75a",
+          "057348e28cb46c19"
+        ]
+      ]
+    },
+    {
+      "id": "338aa7e5ef0ec639",
+      "type": "ui_button",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "group": "9f42dde2236b0964",
+      "order": 6,
+      "width": 0,
+      "height": 0,
+      "passthru": false,
+      "label": "array2",
+      "color": "",
+      "bgcolor": "",
+      "icon": "",
+      "payload": "",
+      "payloadType": "str",
+      "topic": "",
+      "x": 185,
+      "y": 400,
+      "wires": [
+        [
+          "60d070840ffb5ca3"
+        ]
+      ]
+    },
+    {
+      "id": "2ea29517441aca80",
+      "type": "function",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "func": "var chart = [{\n    \"series\":[\"A\",\"B\",\"C\"],\n        \"data\":[[{\"x\":1,\"y\":5},{\"x\":2,\"y\":4},{\"x\":3,\"y\":2}],[{\"x\":4,\"y\":6},{\"x\":5,\"y\":7},{\"x\":6,\"y\":6}],[{\"x\":7,\"y\":7},{\"x\":8,\"y\":9},{\"x\":9,\"y\":7}]],\n    \"labels\":[\"\"]\n}];\nmsg.payload = chart;\n\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 345,
+      "y": 240,
+      "wires": [
+        [
+          "3a18620bfe4fa206"
+        ]
+      ]
+    },
+    {
+      "id": "d802f5cce08eef8b",
+      "type": "ui_button",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "group": "9f42dde2236b0964",
+      "order": 2,
+      "width": 0,
+      "height": 0,
+      "passthru": false,
+      "label": "Time Line 2",
+      "color": "",
+      "bgcolor": "",
+      "icon": "",
+      "payload": "",
+      "payloadType": "str",
+      "topic": "",
+      "x": 205,
+      "y": 240,
+      "wires": [
+        [
+          "2ea29517441aca80"
+        ]
+      ]
+    },
+    {
+      "id": "7944b986b2012dcf",
+      "type": "function",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "func": "var m = {};\nm.labels = [\"Download\", \"In-Store\", \"Mail-Order\"];\nm.data = [[300, 500, 100]];\nm.series = [\"Sales\"];\nreturn {payload:[m],topic:msg.topic};",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 365,
+      "y": 600,
+      "wires": [
+        [
+          "057348e28cb46c19",
+          "aa7d44fca66c116b",
+          "3a18620bfe4fa206",
+          "7defd5aab1f3101c",
+          "3faa0f4264b34561",
+          "b7a7996247aba75a"
+        ]
+      ]
+    },
+    {
+      "id": "057348e28cb46c19",
+      "type": "ui_chart",
+      "z": "7a902ac2dce2e049",
+      "name": "pie chart",
+      "group": "cc76cdb9ad01bf36",
+      "order": 3,
+      "width": 0,
+      "height": 0,
+      "label": "pie chart",
+      "chartType": "pie",
+      "legend": "true",
+      "xformat": "HH:mm:ss",
+      "interpolate": "linear",
+      "nodata": "",
+      "dot": false,
+      "ymin": "",
+      "ymax": "",
+      "removeOlder": 1,
+      "removeOlderPoints": "",
+      "removeOlderUnit": "3600",
+      "cutout": "30",
+      "useOneColor": false,
+      "colors": [
+        "#1f77b4",
+        "#aec7e8",
+        "#ff7f0e",
+        "#2ca02c",
+        "#98df8a",
+        "#d62728",
+        "#ff9896",
+        "#9467bd",
+        "#c5b0d5"
+      ],
+      "outputs": 1,
+      "x": 655,
+      "y": 340,
+      "wires": [
+        []
+      ]
+    },
+    {
+      "id": "a9da5573fe3e5c8f",
+      "type": "ui_button",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "group": "9f42dde2236b0964",
+      "order": 10,
+      "width": 0,
+      "height": 0,
+      "passthru": false,
+      "label": "array for pie",
+      "color": "",
+      "bgcolor": "",
+      "icon": "",
+      "payload": "",
+      "payloadType": "str",
+      "topic": "Pie 4 T",
+      "x": 205,
+      "y": 600,
+      "wires": [
+        [
+          "7944b986b2012dcf"
+        ]
+      ]
+    },
+    {
+      "id": "ff522261cf104f55",
+      "type": "function",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "func": "var chart = [{\n    \"series\":[\"A\",\"B\",\"C\"],\n        \"data\":[[{\"x\":1000000,\"y\":5},{\"x\":2000000,\"y\":4},{\"x\":3000000,\"y\":2}],[{\"x\":4000000,\"y\":6},{\"x\":5000000,\"y\":7},{\"x\":6000000,\"y\":6}],[{\"x\":7000000,\"y\":7},{\"x\":8000000,\"y\":9},{\"x\":9000000,\"y\":7}]],\n    \"labels\":[\"\"]\n}];\nmsg.payload = chart;\n\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 345,
+      "y": 280,
+      "wires": [
+        [
+          "3a18620bfe4fa206"
+        ]
+      ]
+    },
+    {
+      "id": "819a864e21f29357",
+      "type": "ui_button",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "group": "9f42dde2236b0964",
+      "order": 3,
+      "width": 0,
+      "height": 0,
+      "passthru": false,
+      "label": "Time Line 3",
+      "color": "",
+      "bgcolor": "",
+      "icon": "",
+      "payload": "",
+      "payloadType": "str",
+      "topic": "",
+      "x": 205,
+      "y": 280,
+      "wires": [
+        [
+          "ff522261cf104f55"
+        ]
+      ]
+    },
+    {
+      "id": "b0f6426b85b5804d",
+      "type": "function",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "func": "var chart = [{\n    \"series\":[\"A\",\"B\",\"C\"],\n        \"data\":[[{\"x\":1000000000,\"y\":5},{\"x\":2000000000,\"y\":4},{\"x\":3000000000,\"y\":2}],[{\"x\":4000000000,\"y\":6},{\"x\":5000000000,\"y\":7},{\"x\":6000000000,\"y\":6}],[{\"x\":7000000000,\"y\":7},{\"x\":8000000000,\"y\":9},{\"x\":9000000000,\"y\":7}]],\n    \"labels\":[\"\"]\n}];\nmsg.payload = chart;\n\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 345,
+      "y": 320,
+      "wires": [
+        [
+          "3a18620bfe4fa206"
+        ]
+      ]
+    },
+    {
+      "id": "ed1da90a98ce67d1",
+      "type": "ui_button",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "group": "9f42dde2236b0964",
+      "order": 4,
+      "width": 0,
+      "height": 0,
+      "passthru": false,
+      "label": "Time Line 4",
+      "color": "",
+      "bgcolor": "",
+      "icon": "",
+      "payload": "",
+      "payloadType": "str",
+      "topic": "",
+      "x": 205,
+      "y": 320,
+      "wires": [
+        [
+          "b0f6426b85b5804d"
+        ]
+      ]
+    },
+    {
+      "id": "e12be4fb1ae893a3",
+      "type": "function",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "func": "var m={\n    \"series\":[\"X\",\"Y\",\"Z\"],\n    \"data\":[[5,6,9],[3,8,5],[6,7,2]],\n    \"labels\":[\"Jan\",\"Feb\",\"Mar\"]\n};\nreturn {payload:[m]};",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 345,
+      "y": 520,
+      "wires": [
+        [
+          "3a18620bfe4fa206",
+          "aa7d44fca66c116b",
+          "057348e28cb46c19",
+          "7defd5aab1f3101c",
+          "3faa0f4264b34561",
+          "b7a7996247aba75a"
+        ]
+      ]
+    },
+    {
+      "id": "334d7d8f20bedf84",
+      "type": "ui_button",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "group": "9f42dde2236b0964",
+      "order": 9,
+      "width": 0,
+      "height": 0,
+      "passthru": false,
+      "label": "array3c",
+      "color": "",
+      "bgcolor": "",
+      "icon": "",
+      "payload": "",
+      "payloadType": "str",
+      "topic": "",
+      "x": 195,
+      "y": 520,
+      "wires": [
+        [
+          "e12be4fb1ae893a3"
+        ]
+      ]
+    },
+    {
+      "id": "e41bdeee0de2b704",
+      "type": "ui_button",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "group": "9f42dde2236b0964",
+      "order": 11,
+      "width": 0,
+      "height": 0,
+      "passthru": false,
+      "label": "array 2 for pie",
+      "color": "",
+      "bgcolor": "",
+      "icon": "",
+      "payload": "",
+      "payloadType": "str",
+      "topic": "Pie Hole",
+      "x": 200,
+      "y": 680,
+      "wires": [
+        [
+          "f7dc75848a84d2d1"
+        ]
+      ]
+    },
+    {
+      "id": "f7dc75848a84d2d1",
+      "type": "function",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "func": "var m = {};\nm.labels = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];\nm.data = [[28, 48, 40, 19, 86, 27, 90]];\nm.series = ['Series A'];\nreturn {payload:[m],topic:msg.topic};",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 365,
+      "y": 640,
+      "wires": [
+        [
+          "057348e28cb46c19",
+          "aa7d44fca66c116b",
+          "3faa0f4264b34561",
+          "7defd5aab1f3101c",
+          "3a18620bfe4fa206",
+          "b7a7996247aba75a"
+        ]
+      ]
+    },
+    {
+      "id": "f6c2983e2a146aea",
+      "type": "function",
+      "z": "7a902ac2dce2e049",
+      "name": "topic",
+      "func": "var m = [\n    {topic:\"X\", payload:22},\n    {topic:\"Y\", payload:66},\n    {topic:\"Z\", payload:42}\n    ];\nreturn [m];",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 345,
+      "y": 160,
+      "wires": [
+        [
+          "aa7d44fca66c116b",
+          "057348e28cb46c19",
+          "3a18620bfe4fa206",
+          "b7a7996247aba75a"
+        ]
+      ]
+    },
+    {
+      "id": "ea110f6c581168b3",
+      "type": "inject",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "repeat": "",
+      "crontab": "",
+      "once": false,
+      "topic": "",
+      "payload": "",
+      "payloadType": "date",
+      "x": 60,
+      "y": 160,
+      "wires": [
+        [
+          "f6c2983e2a146aea"
+        ]
+      ]
+    },
+    {
+      "id": "e59bf4777c54ade7",
+      "type": "function",
+      "z": "7a902ac2dce2e049",
+      "name": "label",
+      "func": "var m = [\n    {label:\"A\", payload:22},\n    {label:\"B\", payload:66},\n    {label:\"C\", payload:42},\n    ];\nreturn [m];",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 345,
+      "y": 120,
+      "wires": [
+        [
+          "aa7d44fca66c116b",
+          "057348e28cb46c19",
+          "3a18620bfe4fa206",
+          "b7a7996247aba75a"
+        ]
+      ]
+    },
+    {
+      "id": "c4b1640ae9fd3eb3",
+      "type": "inject",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "repeat": "",
+      "crontab": "",
+      "once": false,
+      "topic": "",
+      "payload": "",
+      "payloadType": "date",
+      "x": 180,
+      "y": 100,
+      "wires": [
+        [
+          "e59bf4777c54ade7"
+        ]
+      ]
+    },
+    {
+      "id": "a60f7a82e88e765d",
+      "type": "function",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "func": "var m={\n    \"series\":[\"X\",\"Y\",\"Z\"],\n    \"data\":[[5],[3],[6]],\n    \"labels\":[\"Jan\"]\n};\nreturn {payload:[m]};",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 345,
+      "y": 440,
+      "wires": [
+        [
+          "aa7d44fca66c116b",
+          "7defd5aab1f3101c",
+          "3faa0f4264b34561",
+          "3a18620bfe4fa206",
+          "b7a7996247aba75a",
+          "057348e28cb46c19"
+        ]
+      ]
+    },
+    {
+      "id": "fbe2dc90bd32185c",
+      "type": "ui_button",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "group": "9f42dde2236b0964",
+      "order": 7,
+      "width": 0,
+      "height": 0,
+      "passthru": false,
+      "label": "array3a",
+      "color": "",
+      "bgcolor": "",
+      "icon": "",
+      "payload": "",
+      "payloadType": "str",
+      "topic": "",
+      "x": 195,
+      "y": 440,
+      "wires": [
+        [
+          "a60f7a82e88e765d"
+        ]
+      ]
+    },
+    {
+      "id": "1164c4cc973301dd",
+      "type": "function",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "func": "var m={\n    \"series\":[\"X\"],\n    \"data\":[[5,3,6]],\n    \"labels\":[\"Jan\",\"Feb\",\"Mar\"]\n};\nreturn {payload:[m]};",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 345,
+      "y": 480,
+      "wires": [
+        [
+          "aa7d44fca66c116b",
+          "3a18620bfe4fa206",
+          "3faa0f4264b34561",
+          "7defd5aab1f3101c",
+          "b7a7996247aba75a",
+          "057348e28cb46c19"
+        ]
+      ]
+    },
+    {
+      "id": "76269ac6d42f21ac",
+      "type": "ui_button",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "group": "9f42dde2236b0964",
+      "order": 8,
+      "width": 0,
+      "height": 0,
+      "passthru": false,
+      "label": "array3b",
+      "color": "",
+      "bgcolor": "",
+      "icon": "",
+      "payload": "",
+      "payloadType": "str",
+      "topic": "",
+      "x": 195,
+      "y": 480,
+      "wires": [
+        [
+          "1164c4cc973301dd"
+        ]
+      ]
+    },
+    {
+      "id": "b7a7996247aba75a",
+      "type": "ui_chart",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "group": "81ef70312b32611e",
+      "order": 2,
+      "width": 0,
+      "height": 0,
+      "label": "horizontal bar",
+      "chartType": "horizontalBar",
+      "legend": "false",
+      "xformat": "HH:mm:ss",
+      "interpolate": "linear",
+      "nodata": "",
+      "dot": false,
+      "ymin": "",
+      "ymax": "",
+      "removeOlder": 1,
+      "removeOlderPoints": "",
+      "removeOlderUnit": "3600",
+      "cutout": "30",
+      "colors": [
+        "#1f77b4",
+        "#aec7e8",
+        "#ff7f0e",
+        "#2ca02c",
+        "#98df8a",
+        "#d62728",
+        "#ff9896",
+        "#9467bd",
+        "#c5b0d5"
+      ],
+      "outputs": 1,
+      "x": 635,
+      "y": 220,
+      "wires": [
+        []
+      ]
+    },
+    {
+      "id": "7defd5aab1f3101c",
+      "type": "ui_chart",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "group": "81ef70312b32611e",
+      "order": 3,
+      "width": 0,
+      "height": 0,
+      "label": "polar chart",
+      "chartType": "polar-area",
+      "legend": "false",
+      "xformat": "HH:mm:ss",
+      "interpolate": "linear",
+      "nodata": "",
+      "dot": false,
+      "ymin": "",
+      "ymax": "",
+      "removeOlder": 1,
+      "removeOlderPoints": "",
+      "removeOlderUnit": "3600",
+      "cutout": "30",
+      "colors": [
+        "#1f77b4",
+        "#aec7e8",
+        "#ff7f0e",
+        "#2ca02c",
+        "#98df8a",
+        "#d62728",
+        "#ff9896",
+        "#9467bd",
+        "#c5b0d5"
+      ],
+      "outputs": 2,
+      "x": 665,
+      "y": 460,
+      "wires": [
+        [],
+        []
+      ]
+    },
+    {
+      "id": "3faa0f4264b34561",
+      "type": "ui_chart",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "group": "81ef70312b32611e",
+      "order": 4,
+      "width": 0,
+      "height": 0,
+      "label": "radar chart",
+      "chartType": "radar",
+      "legend": "false",
+      "xformat": "HH:mm:ss",
+      "interpolate": "linear",
+      "nodata": "",
+      "dot": false,
+      "ymin": "",
+      "ymax": "",
+      "removeOlder": 1,
+      "removeOlderPoints": "",
+      "removeOlderUnit": "3600",
+      "cutout": "30",
+      "colors": [
+        "#1f77b4",
+        "#aec7e8",
+        "#ff7f0e",
+        "#2ca02c",
+        "#98df8a",
+        "#d62728",
+        "#ff9896",
+        "#9467bd",
+        "#c5b0d5"
+      ],
+      "outputs": 1,
+      "x": 660,
+      "y": 540,
+      "wires": [
+        []
+      ]
+    },
+    {
+      "id": "9f783a02e2487dd2",
+      "type": "function",
+      "z": "7a902ac2dce2e049",
+      "name": "label",
+      "func": "var m = [\n    {label:\"A\", payload:22, series:\"X\"},\n    {label:\"B\", payload:66, series:\"X\"},\n    {label:\"C\", payload:42, series:\"X\"},\n    {label:\"A\", payload:33, series:\"Y\"},\n    {label:\"B\", payload:72, series:\"Y\"},\n    {label:\"C\", payload:12, series:\"Y\"},\n    {label:\"A\", payload:44, series:\"Z\"},\n    {label:\"B\", payload:32, series:\"Z\"},\n    {label:\"C\", payload:80, series:\"Z\"}\n    ];\nreturn [m];",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 345,
+      "y": 80,
+      "wires": [
+        [
+          "057348e28cb46c19",
+          "aa7d44fca66c116b",
+          "3a18620bfe4fa206",
+          "b7a7996247aba75a"
+        ]
+      ]
+    },
+    {
+      "id": "061f372768294912",
+      "type": "inject",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "repeat": "",
+      "crontab": "",
+      "once": false,
+      "topic": "",
+      "payload": "",
+      "payloadType": "date",
+      "x": 100,
+      "y": 60,
+      "wires": [
+        [
+          "9f783a02e2487dd2"
+        ]
+      ]
+    },
+    {
+      "id": "f596847a23877e2b",
+      "type": "ui_button",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "group": "9f42dde2236b0964",
+      "order": 11,
+      "width": 0,
+      "height": 0,
+      "passthru": false,
+      "label": "Clear All",
+      "color": "",
+      "bgcolor": "",
+      "icon": "",
+      "payload": "[]",
+      "payloadType": "json",
+      "topic": "",
+      "x": 335,
+      "y": 40,
+      "wires": [
+        [
+          "3faa0f4264b34561",
+          "7defd5aab1f3101c",
+          "057348e28cb46c19",
+          "b7a7996247aba75a",
+          "aa7d44fca66c116b",
+          "3a18620bfe4fa206"
+        ]
+      ]
+    },
+    {
+      "id": "427ebc5e94f97efe",
+      "type": "random",
+      "z": "7a902ac2dce2e049",
+      "name": "",
+      "low": "1",
+      "high": "10000000",
+      "inte": "true",
+      "property": "payload",
+      "x": 375,
+      "y": 560,
+      "wires": [
+        [
+          "3a18620bfe4fa206"
+        ]
+      ]
+    }
+  ],
+  "rev": "d751713988987e9331980363e24189ce"
+}
